@@ -1,0 +1,19 @@
+{
+  "name": "Wallpaper-Abyss Bulk Downloader",
+  "description": "Bulk download wallpapers from Wallpaper-Abyss.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "downloads"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://wall.alphacoders.com/*"],
+      "js": ["scripts/lib/jquery.min.js", "scripts/dom.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["scripts/lib/jquery.min.js", "scripts/downloader.js"],
+    "persistent": false
+  }
+}
