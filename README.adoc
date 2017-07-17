@@ -1,0 +1,14 @@
+= Wallpaper-Abyss Bulk Downloader
+
+A plugin for Google Chrome that downloads all wallpapers from Wallpaper Abyss in bulk.
+
+== Screenshot
+
+This plugin adds "Download All Wallpapers" button, as shown in the image below.
+
+image::https://github.com/mi2428/abyss-downloader/blob/images/screenshot1.png[scrennshot1]
+
+== Change Log
+
+1.0::
+    - Initial Commit
