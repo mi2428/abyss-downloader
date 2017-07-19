@@ -12,3 +12,6 @@ image::https://github.com/mi2428/abyss-downloader/blob/images/screenshot1.png[sc
 
 1.0::
     - Initial Commit
+
+1.1::
+    - Bug fix (link:https://github.com/mi2428/abyss-downloader/issues/4[#4])
