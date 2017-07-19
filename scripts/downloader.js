@@ -14,7 +14,7 @@ $(function(){
 
   function getImageUrls(pageurl) {
     let urls = [];
-    const match = /https:\/\/images\d+\.alphacoders\.com\/\d+\/thumb-\d+-\d+\.\w+/g;
+    const match = /https:\/\/images\d*\.alphacoders\.com\/\d+\/thumb-\d+-\d+\.\w+/g;
     for (let url of request(pageurl, match)) {
       urls.push(url.replace(/thumb-\d+-/g, ""));
     }
